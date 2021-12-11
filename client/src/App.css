@@ -1,0 +1,64 @@
+body {
+	background: radial-gradient(#fff, #eee);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.alert .card-content span {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+.alert .card-content .material-icons {
+  font-size: 1.5em;
+  position: relative;
+  top: 5px;
+  margin-right: 0.5em;
+}
+.brand-logo {
+	margin-left: 1rem
+}
+.bold {
+	font-weight:bolder !important
+}
+.card-title {
+	margin-bottom: 0 !important
+}
+.card {
+	background: #005397
+}
+.collapsible-header {
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+}
+.collapsible-header:hover {
+	background: #eee;
+	transition: .5s
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.gradient {
+	background: linear-gradient(-45deg, #2196F3, #222);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.alt-gradient {
+	background: linear-gradient(-45deg, #000, #2196F3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.progress {
+    background-color: #0a66b1;
+}
+.progress .indeterminate {
+    background-color: rgb(162, 206, 243)
+}

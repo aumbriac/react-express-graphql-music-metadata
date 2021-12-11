@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Tonight",
+        "artist": "The Smashing Pumpkins",
+        "genre": "Alternative/Indie",
+        "duration": 258
+    },
+    {
+        "title":"Wish You Were Here", 
+        "artist":"Pink Floyd",
+        "genre":"Classic Rock",
+        "duration": 335
+    },
+    {
+        "title":"Under The Bridge",
+        "artist":"Red Hot Chili Peppers",
+        "genre":"Alternative Rock",
+        "duration": 267
+    },
+    {
+        "title": "Back in Black",
+        "artist": "AC/DC",
+        "genre": "Rock",
+        "duration": 253
+    },
+    {
+        "title": "Muy tranquilo",
+        "artist": "Gramatik",
+        "genre": "Dance/Electronic",
+        "duration": 234
+    },
+    {
+        "title": "Mr. Brightside",
+        "artist": "The Killers",
+        "genre": "Alternative Rock",
+        "duration": 227
+    }
+]
