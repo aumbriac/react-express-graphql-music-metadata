@@ -1,15 +1,15 @@
 # Music Metadata App
 
-A simple Music Metadata App created in React, Node/Express, and GraphQL
+A simple Music Metadata App created with React, Node/Express, and GraphQL
 
-First, start the server
+## First, start the server
 ### `cd server`
 ### `npm i`
 ### `node index.js`
 
 Runs the server on port 3001
 
-Then start the client
+## Then start the client
 ### `cd client`
 ### `npm i`
 ### `npm start`
@@ -17,9 +17,11 @@ Then start the client
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## GraphQL
 To query the API using GraphQL, open [http://localhost:3001/graphql](http://localhost:3001/graphql) to view the GraphiQL interface.
 
-## Get all tracks
+Get all tracks
+```
 query {
   getAllTracks {
     title,
@@ -28,8 +30,10 @@ query {
     duration
   }
 }
+```
 
-## Create track
+Create track
+```
 mutation {
   createTrack(
     title:"Have A Cigar", 
@@ -42,3 +46,4 @@ mutation {
     duration
   }
 }
+```
